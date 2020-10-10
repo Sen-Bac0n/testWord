@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
                                 String strMeaning = mean.getText().toString();
                                 String strSample = ex.getText().toString();
                                 ContentValues values = new ContentValues();
-
                                 values.put(Words.Word.COLUMN_NAME_WORD, strWord);
                                 values.put(Words.Word.COLUMN_NAME_MEANING, strMeaning);
                                 values.put(Words.Word.COLUMN_NAME_SAMPLE, strSample);
